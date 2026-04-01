@@ -7,7 +7,7 @@ const HeroSection = () => {
                   <div className="mb-0 flex flex-col items-center p-0 m-0">
                         <div className="w-35 mb-0 p-0 m-0">
                     <Image
-                      src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WING.D-0148b42a-1765874273955.png"
+                      src="/logo.png"
                       alt="Wingstop Logo"
                       width={176}
                       height={176}
@@ -18,7 +18,7 @@ const HeroSection = () => {
               <div className="relative mb-6 mt-6 animate-float">
             <div className="relative inline-block">
                     <Image
-                      src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Untitled-design-3-1765878937787.png?width=8000&height=8000&resize=contain"
+                      src="/card.png"
                       alt="Ranch Money Wingstop Card"
                       width={288}
                       height={435}
@@ -28,20 +28,20 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <h1 className="text-lg md:text-xl font-bold text-foreground mb-1.5 text-shadow-glow px-2 relative">
+          <h1 className="text-lg md:text-xl font-bold mb-1.5 px-2 relative">
             <Star className="w-2.5 h-2.5 text-accent absolute -top-0.5 left-3 animate-pulse" />
-            Unlock{' '}
-              <span className="inline-flex items-center gap-1" style={{ color: 'hsl(150, 92%, 50%)' }}>
-                Wingstop Rewards
-                <Gift className="w-4 h-4 inline-block" style={{ color: 'hsl(150, 92%, 50%)' }} />
+            <span className="text-black">Unlock</span>{' '}
+              <span className="inline-flex items-center gap-1" style={{ color: 'hsl(205.81deg 98.85% 34.12%)' }}>
+                Sam's Club Rewards
+                <Gift className="w-4 h-4 inline-block" style={{ color: 'hsl(205.81deg 98.85% 34.12%)' }} />
             </span>
             <Snowflake className="w-2.5 h-2.5 text-white/60 absolute -bottom-0.5 right-3 animate-pulse" />
           </h1>
 
-        <p className="text-xs md:text-sm text-foreground/95 mb-2 font-medium text-shadow-strong px-2 relative">
+        <p className="text-xs md:text-sm text-black mb-2 font-medium px-2 relative">
           <Sparkles className="w-2.5 h-2.5 text-accent inline-block mr-1 animate-pulse" />
           Here's how to claim your{' '}
-            <span className="font-bold !w-[148px] !h-[17px]" style={{ color: 'hsl(150, 92%, 50%)' }}>$500 Gift Card</span>
+            <span className="font-bold !w-[148px] !h-[17px]" style={{ color: 'hsl(205.81deg 98.85% 34.12%)' }}>$500 Gift Card</span>
           <Sparkles className="w-2.5 h-2.5 text-accent inline-block ml-1 animate-pulse" />
         </p>
       </div>
