@@ -1,6 +1,5 @@
 import React from 'react';
-import { Star, Sparkles, Heart, Gift } from 'lucide-react';
-import Image from 'next/image';
+import { Star, Sparkles, Heart, Gift, ShoppingCart, ShoppingBag, Tag, CreditCard, Package } from 'lucide-react';
 
 const AnimatedBackground = () => {
   return (
@@ -16,48 +15,12 @@ const AnimatedBackground = () => {
       </div>
 
       <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-15">
-          <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/png-transparent-fried-chicken-buffalo-wing-wingstop-restaurants-flavor-food-fried-chicken-removebg-preview-1765871998352.png?width=8000&height=8000&resize=contain"
-            alt=""
-            width={80}
-            height={80}
-            className="absolute top-24 left-12 w-20 h-20 object-contain animate-float-gentle"
-          />
-          <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/9EmrX3Z-1765872315257.png?width=8000&height=8000&resize=contain"
-            alt=""
-            width={160}
-            height={160}
-            className="absolute top-32 right-16 w-40 h-40 object-contain animate-float-gentle"
-          />
-          <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/556-5565451_pint-glass-hd-png-download-removebg-preview-1765872390906.png?width=8000&height=8000&resize=contain"
-            alt=""
-            width={160}
-            height={160}
-            className="absolute top-1/3 left-20 w-40 h-40 object-contain animate-float-gentle"
-          />
-          <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/556-5565451_pint-glass-hd-png-download-removebg-preview-1765871733517.png?width=8000&height=8000&resize=contain"
-            alt=""
-            width={160}
-            height={160}
-            className="absolute top-1/2 right-24 w-40 h-40 object-contain animate-float-gentle"
-          />
-          <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Sp6vvrX-1765869925452.png?width=8000&height=8000&resize=contain"
-            alt=""
-            width={160}
-            height={160}
-            className="absolute bottom-40 left-16 w-20 h-20 object-contain animate-float-gentle"
-          />
-          <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/yI9Y2Sx-1765869298978.png?width=8000&height=8000&resize=contain"
-            alt=""
-            width={80}
-            height={80}
-            className="absolute bottom-32 right-20 w-20 h-20 object-contain animate-float-gentle"
-          />
+        <ShoppingCart className="absolute top-24 left-12 w-20 h-20 text-[hsl(205deg_100%_33.92%)] animate-float-gentle" />
+        <ShoppingBag className="absolute top-32 right-16 w-16 h-16 text-accent animate-float-gentle" />
+        <Tag className="absolute top-1/3 left-20 w-14 h-14 text-[hsl(205deg_100%_33.92%)] animate-float-gentle" />
+        <CreditCard className="absolute top-1/2 right-24 w-16 h-16 text-accent animate-float-gentle" />
+        <Package className="absolute bottom-40 left-16 w-20 h-20 text-[hsl(205deg_100%_33.92%)] animate-float-gentle" />
+        <ShoppingCart className="absolute bottom-32 right-20 w-16 h-16 text-accent animate-float-gentle" />
       </div>
     </>
   );
