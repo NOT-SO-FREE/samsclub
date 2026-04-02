@@ -5,7 +5,7 @@ const SocialFooter = () => {
     <>
       <div className="flex justify-center gap-1.5 mb-2">
         <a
-          href="https://www.linkedin.com/company/wingstop-restaurants-inc-/"
+          href="https://www.linkedin.com/company/sam's-club"
           aria-label="LinkedIn"
             className="w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl border"
             style={{ backgroundColor: 'hsl(205.32deg 100% 33.92%)', borderColor: 'hsl(205.32deg 100% 33.92%)' }}>
@@ -21,7 +21,7 @@ const SocialFooter = () => {
           <Facebook className="w-3 h-3 text-foreground" />
         </a>
         <a
-          href="https://www.instagram.com/wingstop/"
+          href="https://www.instagram.com/samsclub/"
           aria-label="Instagram"
             className="w-7 h-7 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl border"
             style={{ backgroundColor: 'hsl(205.32deg 100% 33.92%)', borderColor: 'hsl(205.32deg 100% 33.92%)' }}>
